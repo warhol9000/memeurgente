@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MemeUrgente — Noticias</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --rojo: #ff2020;
+    --negro: #0a0a0a;
+    --blanco: #f5f5f0;
+    --gris: #1a1a1a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--negro);
+    color: var(--blanco);
+    font-family: 'IBM Plex Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Fondo con ruido */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  header {
+    position: relative;
+    z-index: 1;
+    padding: 40px 24px 20px;
+    border-bottom: 2px solid var(--rojo);
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(48px, 10vw, 80px);
+    color: var(--rojo);
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .logo span {
+    color: var(--blanco);
+  }
+
+  .fecha-badge {
+    font-size: 11px;
+    color: var(--rojo);
+    border: 1px solid var(--rojo);
+    padding: 4px 10px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .ticker {
+    position: relative;
+    z-index: 1;
+    background: var(--rojo);
+    padding: 8px 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .ticker-inner {
+    display: inline-block;
+    animation: ticker 20s linear infinite;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+
+  @keyframes ticker {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-100%); }
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .seccion-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: var(--rojo);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .seccion-titulo::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rojo);
+    opacity: 0.3;
+  }
+
+  .loading {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #555;
+    animation: pulso 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pulso {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+
+  .error {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 12px;
+    color: #555;
+    letter-spacing: 2px;
+  }
+
+  .link-item {
+    display: block;
+    border: 1px solid #222;
+    padding: 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: var(--blanco);
+    position: relative;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    animation: aparecer 0.4s ease both;
+  }
+
+  .link-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--rojo);
+    transform: scaleY(0);
+    transition: transform 0.2s ease;
+  }
+
+  .link-item:hover {
+    border-color: var(--rojo);
+    background: #111;
+    transform: translateX(4px);
+  }
+
+  .link-item:hover::before {
+    transform: scaleY(1);
+  }
+
+  @keyframes aparecer {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .link-numero {
+    font-size: 10px;
+    color: var(--rojo);
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .link-tema {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .link-url {
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .link-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 18px;
+    transition: color 0.2s, transform 0.2s;
+  }
+
+  .link-item:hover .link-arrow {
+    color: var(--rojo);
+    transform: translateY(-50%) translateX(3px);
+  }
+
+  .instagram-cta {
+    margin-top: 48px;
+    border: 1px solid #222;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .instagram-cta p {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 12px;
+  }
+
+  .instagram-cta a {
+    color: var(--rojo);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .instagram-cta a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    color: #333;
+    letter-spacing: 2px;
+    border-top: 1px solid #1a1a1a;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MEME<span>URGENTE</span></div>
+  <div class="fecha-badge" id="fecha-badge">CARGANDO...</div>
+</header>
+
+<div class="ticker">
+  <span class="ticker-inner">
+    ★ NOTICIAS DEL DÍA ★ VER NOTA COMPLETA ★ MEMES EN INSTAGRAM ★ @MEMEURGENTE ★ NOTICIAS DEL DÍA ★ VER NOTA COMPLETA ★ MEMES EN INSTAGRAM ★ @MEMEURGENTE ★
+  </span>
+</div>
+
+<main>
+  <div class="seccion-titulo">NOTAS DE HOY</div>
+  <div id="lista-links">
+    <div class="loading">CARGANDO NOTICIAS...</div>
+  </div>
+
+  <div class="instagram-cta">
+    <p>SEGUINOS EN INSTAGRAM</p>
+    <a href="https://instagram.com/memeurgente" target="_blank">@MEMEURGENTE</a>
+  </div>
+</main>
+
+<footer>
+  MEMEURGENTE © <span id="anio"></span> — TODOS LOS MEMES SON FICTICIOS
+</footer>
+
+<script>
+  document.getElementById('anio').textContent = new Date().getFullYear();
+
+  function getFechaHoy() {
+    const hoy = new Date();
+    const yyyy = hoy.getFullYear();
+    const mm = String(hoy.getMonth() + 1).padStart(2, '0');
+    const dd = String(hoy.getDate()).padStart(2, '0');
+    return yyyy + mm + dd;
+  }
+
+  function formatearFecha(fechaStr) {
+    const d = fechaStr.slice(6, 8);
+    const m = fechaStr.slice(4, 6);
+    const y = fechaStr.slice(0, 4);
+    const meses = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
+    return d + ' ' + meses[parseInt(m) - 1] + ' ' + y;
+  }
+
+  async function cargarNoticias() {
+    const fecha = getFechaHoy();
+    const archivo = 'noticiaslinksFECHA.txt'.replace('FECHA', fecha);
+
+    document.getElementById('fecha-badge').textContent = formatearFecha(fecha);
+
+    try {
+      // Intentar cargar desde GitHub raw
+      const url = 'https://raw.githubusercontent.com/warhol9000/memeurgente/main/' + archivo;
+      const resp = await fetch(url);
+
+      if (!resp.ok) {
+        throw new Error('Sin noticias por ahora');
+      }
+
+      const texto = await resp.text();
+      const lineas = texto.split('\n').filter(l => l.trim());
+
+      if (lineas.length === 0) {
+        throw new Error('Archivo vacio');
+      }
+
+      const lista = document.getElementById('lista-links');
+      lista.innerHTML = '';
+
+      lineas.forEach((linea, i) => {
+        const partes = linea.split('|');
+        const url = partes[0] ? partes[0].trim() : '';
+        const tema = partes[1] ? partes[1].trim() : 'Ver nota';
+
+        if (!url) return;
+
+        const delay = i * 80;
+        const item = document.createElement('a');
+        item.href = url;
+        item.target = '_blank';
+        item.rel = 'noopener noreferrer';
+        item.className = 'link-item';
+        item.style.animationDelay = delay + 'ms';
+        item.innerHTML = `
+          <div class="link-numero">NOTA ${String(i + 1).padStart(2, '0')}</div>
+          <div class="link-tema">${tema}</div>
+          <div class="link-url">${url}</div>
+          <span class="link-arrow">→</span>
+        `;
+        lista.appendChild(item);
+      });
+
+    } catch (e) {
+      document.getElementById('lista-links').innerHTML = `
+        <div class="error">
+          SIN NOTICIAS CARGADAS HOY<br><br>
+          VOLVÉ MÁS TARDE
+        </div>
+      `;
+    }
+  }
+
+  cargarNoticias();
+</script>
+</body>
+</html>
