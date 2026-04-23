@@ -3,14 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MemeUrgente — Noticias</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<title>MemeUrgente — Noticias del día</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
   :root {
     --rojo: #ff2020;
-    --negro: #0a0a0a;
-    --blanco: #f5f5f0;
-    --gris: #1a1a1a;
+    --negro: #080808;
+    --blanco: #f0ede8;
+    --gris: #141414;
+    --gris2: #1e1e1e;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -20,235 +21,243 @@
     color: var(--blanco);
     font-family: 'IBM Plex Mono', monospace;
     min-height: 100vh;
-    overflow-x: hidden;
   }
 
-  /* Fondo con ruido */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
-
+  /* HEADER */
   header {
-    position: relative;
-    z-index: 1;
-    padding: 40px 24px 20px;
-    border-bottom: 2px solid var(--rojo);
+    padding: 32px 24px 24px;
+    border-bottom: 3px solid var(--rojo);
     display: flex;
     align-items: flex-end;
-    gap: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .logo {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(48px, 10vw, 80px);
+    font-size: clamp(52px, 12vw, 96px);
     color: var(--rojo);
-    line-height: 1;
-    letter-spacing: 2px;
+    line-height: 0.9;
+    letter-spacing: 3px;
   }
 
-  .logo span {
-    color: var(--blanco);
+  .logo span { color: var(--blanco); }
+
+  .header-right {
+    text-align: right;
   }
 
-  .fecha-badge {
+  .fecha-hoy {
     font-size: 11px;
+    letter-spacing: 3px;
     color: var(--rojo);
-    border: 1px solid var(--rojo);
-    padding: 4px 10px;
-    margin-bottom: 8px;
-    letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 4px;
   }
 
+  .ig-link {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .ig-link:hover { color: var(--rojo); }
+
+  /* TICKER */
   .ticker {
-    position: relative;
-    z-index: 1;
     background: var(--rojo);
-    padding: 8px 0;
+    padding: 7px 0;
     overflow: hidden;
     white-space: nowrap;
   }
 
   .ticker-inner {
     display: inline-block;
-    animation: ticker 20s linear infinite;
-    font-size: 12px;
-    letter-spacing: 3px;
+    animation: tick 25s linear infinite;
+    font-size: 11px;
+    letter-spacing: 4px;
     font-weight: 600;
   }
 
-  @keyframes ticker {
-    0% { transform: translateX(100vw); }
-    100% { transform: translateX(-100%); }
+  @keyframes tick {
+    from { transform: translateX(100vw); }
+    to { transform: translateX(-100%); }
   }
 
+  /* MAIN */
   main {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 40px 24px 80px;
+    padding: 48px 24px 80px;
   }
 
   .seccion-titulo {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 13px;
-    letter-spacing: 4px;
+    font-size: 12px;
+    letter-spacing: 5px;
     color: var(--rojo);
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
   }
 
   .seccion-titulo::after {
     content: '';
     flex: 1;
     height: 1px;
-    background: var(--rojo);
-    opacity: 0.3;
+    background: #2a2a2a;
   }
 
-  .loading {
-    text-align: center;
-    padding: 60px 0;
-    font-size: 12px;
+  /* GRID DE MEMES */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    background: var(--gris);
+    border: 1px solid #1e1e1e;
+    overflow: hidden;
+    animation: aparecer 0.5s ease both;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .card:hover {
+    border-color: var(--rojo);
+    transform: translateY(-3px);
+  }
+
+  @keyframes aparecer {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .card-imagen {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    display: block;
+    background: #111;
+  }
+
+  .card-imagen-placeholder {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .card-body {
+    padding: 16px;
+    border-top: 1px solid #1e1e1e;
+  }
+
+  .card-numero {
+    font-size: 10px;
+    color: var(--rojo);
     letter-spacing: 3px;
-    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .card-tema {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 14px;
+    color: var(--blanco);
+  }
+
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--rojo);
+    text-decoration: none;
+    border: 1px solid var(--rojo);
+    padding: 7px 14px;
+    transition: background 0.2s, color 0.2s;
+    text-transform: uppercase;
+  }
+
+  .card-link:hover {
+    background: var(--rojo);
+    color: var(--negro);
+  }
+
+  /* ESTADOS */
+  .loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #444;
     animation: pulso 1.5s ease-in-out infinite;
   }
 
   @keyframes pulso {
-    0%, 100% { opacity: 0.4; }
+    0%, 100% { opacity: 0.3; }
     50% { opacity: 1; }
   }
 
-  .error {
+  .vacio {
+    grid-column: 1 / -1;
     text-align: center;
-    padding: 40px 0;
-    font-size: 12px;
-    color: #555;
-    letter-spacing: 2px;
-  }
-
-  .link-item {
-    display: block;
-    border: 1px solid #222;
-    padding: 20px;
-    margin-bottom: 12px;
-    text-decoration: none;
-    color: var(--blanco);
-    position: relative;
-    transition: all 0.2s ease;
-    overflow: hidden;
-    animation: aparecer 0.4s ease both;
-  }
-
-  .link-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: var(--rojo);
-    transform: scaleY(0);
-    transition: transform 0.2s ease;
-  }
-
-  .link-item:hover {
-    border-color: var(--rojo);
-    background: #111;
-    transform: translateX(4px);
-  }
-
-  .link-item:hover::before {
-    transform: scaleY(1);
-  }
-
-  @keyframes aparecer {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .link-numero {
-    font-size: 10px;
-    color: var(--rojo);
-    letter-spacing: 2px;
-    margin-bottom: 8px;
-  }
-
-  .link-tema {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 10px;
-  }
-
-  .link-url {
-    font-size: 10px;
-    color: #444;
-    letter-spacing: 1px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .link-arrow {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #333;
-    font-size: 18px;
-    transition: color 0.2s, transform 0.2s;
-  }
-
-  .link-item:hover .link-arrow {
-    color: var(--rojo);
-    transform: translateY(-50%) translateX(3px);
-  }
-
-  .instagram-cta {
-    margin-top: 48px;
-    border: 1px solid #222;
-    padding: 24px;
-    text-align: center;
-  }
-
-  .instagram-cta p {
+    padding: 80px 0;
     font-size: 11px;
-    letter-spacing: 2px;
-    color: #555;
-    margin-bottom: 12px;
+    letter-spacing: 3px;
+    color: #333;
+    line-height: 2;
   }
 
-  .instagram-cta a {
+  /* CTA INSTAGRAM */
+  .cta {
+    margin-top: 56px;
+    border: 1px solid #1e1e1e;
+    padding: 32px;
+    text-align: center;
+    background: var(--gris);
+  }
+
+  .cta p {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #444;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  .cta a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
     color: var(--rojo);
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
+    transition: opacity 0.2s;
   }
 
-  .instagram-cta a:hover {
-    text-decoration: underline;
-  }
+  .cta a:hover { opacity: 0.7; }
 
+  /* FOOTER */
   footer {
-    position: relative;
-    z-index: 1;
     text-align: center;
-    padding: 20px;
+    padding: 24px;
     font-size: 10px;
-    color: #333;
+    color: #2a2a2a;
     letter-spacing: 2px;
-    border-top: 1px solid #1a1a1a;
+    border-top: 1px solid #111;
   }
 </style>
 </head>
@@ -256,109 +265,108 @@
 
 <header>
   <div class="logo">MEME<span>URGENTE</span></div>
-  <div class="fecha-badge" id="fecha-badge">CARGANDO...</div>
+  <div class="header-right">
+    <div class="fecha-hoy" id="fecha-hoy">—</div>
+    <a class="ig-link" href="https://instagram.com/memeurgente" target="_blank">@MEMEURGENTE</a>
+  </div>
 </header>
 
 <div class="ticker">
   <span class="ticker-inner">
-    ★ NOTICIAS DEL DÍA ★ VER NOTA COMPLETA ★ MEMES EN INSTAGRAM ★ @MEMEURGENTE ★ NOTICIAS DEL DÍA ★ VER NOTA COMPLETA ★ MEMES EN INSTAGRAM ★ @MEMEURGENTE ★
+    ★ MEMES DEL DÍA ★ VER NOTA COMPLETA ★ SEGUINOS EN INSTAGRAM @MEMEURGENTE ★ MEMES DEL DÍA ★ VER NOTA COMPLETA ★ SEGUINOS EN INSTAGRAM @MEMEURGENTE ★
   </span>
 </div>
 
 <main>
-  <div class="seccion-titulo">NOTAS DE HOY</div>
-  <div id="lista-links">
-    <div class="loading">CARGANDO NOTICIAS...</div>
+  <div class="seccion-titulo">MEMES DE HOY</div>
+  <div class="grid" id="grid">
+    <div class="loading">CARGANDO MEMES...</div>
   </div>
 
-  <div class="instagram-cta">
-    <p>SEGUINOS EN INSTAGRAM</p>
+  <div class="cta">
+    <p>Seguinos para más memes diarios</p>
     <a href="https://instagram.com/memeurgente" target="_blank">@MEMEURGENTE</a>
   </div>
 </main>
 
 <footer>
-  MEMEURGENTE © <span id="anio"></span> — TODOS LOS MEMES SON FICTICIOS
+  MEMEURGENTE © <span id="anio"></span> — LOS MEMES SON FICTICIOS Y DE HUMOR
 </footer>
 
 <script>
   document.getElementById('anio').textContent = new Date().getFullYear();
 
   function getFechaHoy() {
-    const hoy = new Date();
-    const yyyy = hoy.getFullYear();
-    const mm = String(hoy.getMonth() + 1).padStart(2, '0');
-    const dd = String(hoy.getDate()).padStart(2, '0');
-    return yyyy + mm + dd;
+    const h = new Date();
+    return '' + h.getFullYear() +
+      String(h.getMonth() + 1).padStart(2, '0') +
+      String(h.getDate()).padStart(2, '0');
   }
 
-  function formatearFecha(fechaStr) {
-    const d = fechaStr.slice(6, 8);
-    const m = fechaStr.slice(4, 6);
-    const y = fechaStr.slice(0, 4);
+  function mostrarFecha(f) {
     const meses = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
-    return d + ' ' + meses[parseInt(m) - 1] + ' ' + y;
+    const d = f.slice(6,8), m = parseInt(f.slice(4,6)) - 1, y = f.slice(0,4);
+    document.getElementById('fecha-hoy').textContent = d + ' ' + meses[m] + ' ' + y;
   }
 
-  async function cargarNoticias() {
+  async function cargar() {
     const fecha = getFechaHoy();
-    const archivo = 'noticiaslinksFECHA.txt'.replace('FECHA', fecha);
+    mostrarFecha(fecha);
 
-    document.getElementById('fecha-badge').textContent = formatearFecha(fecha);
+    const url = 'https://raw.githubusercontent.com/warhol9000/memeurgente/main/noticiaslinks' + fecha + '.txt';
 
     try {
-      // Intentar cargar desde GitHub raw
-      const url = 'https://raw.githubusercontent.com/warhol9000/memeurgente/main/' + archivo;
-      const resp = await fetch(url);
-
-      if (!resp.ok) {
-        throw new Error('Sin noticias por ahora');
-      }
+      const resp = await fetch(url + '?nocache=' + Date.now());
+      if (!resp.ok) throw new Error('sin archivo');
 
       const texto = await resp.text();
       const lineas = texto.split('\n').filter(l => l.trim());
+      if (!lineas.length) throw new Error('vacio');
 
-      if (lineas.length === 0) {
-        throw new Error('Archivo vacio');
-      }
-
-      const lista = document.getElementById('lista-links');
-      lista.innerHTML = '';
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
 
       lineas.forEach((linea, i) => {
-        const partes = linea.split('|');
-        const url = partes[0] ? partes[0].trim() : '';
-        const tema = partes[1] ? partes[1].trim() : 'Ver nota';
+        const partes = linea.split('|').map(p => p.trim());
+        const urlNoticia = partes[0] || '';
+        const tema = partes[1] || 'Ver nota';
+        const urlImagen = partes[2] || '';
 
-        if (!url) return;
+        if (!urlNoticia) return;
 
-        const delay = i * 80;
-        const item = document.createElement('a');
-        item.href = url;
-        item.target = '_blank';
-        item.rel = 'noopener noreferrer';
-        item.className = 'link-item';
-        item.style.animationDelay = delay + 'ms';
-        item.innerHTML = `
-          <div class="link-numero">NOTA ${String(i + 1).padStart(2, '0')}</div>
-          <div class="link-tema">${tema}</div>
-          <div class="link-url">${url}</div>
-          <span class="link-arrow">→</span>
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.style.animationDelay = (i * 100) + 'ms';
+
+        const imgHtml = urlImagen
+          ? `<img class="card-imagen" src="${urlImagen}" alt="${tema}" loading="lazy">`
+          : `<div class="card-imagen-placeholder">SIN IMAGEN</div>`;
+
+        card.innerHTML = `
+          ${imgHtml}
+          <div class="card-body">
+            <div class="card-numero">MEME ${String(i+1).padStart(2,'0')}</div>
+            <div class="card-tema">${tema}</div>
+            <a class="card-link" href="${urlNoticia}" target="_blank" rel="noopener">
+              VER NOTA COMPLETA →
+            </a>
+          </div>
         `;
-        lista.appendChild(item);
+        grid.appendChild(card);
       });
 
-    } catch (e) {
-      document.getElementById('lista-links').innerHTML = `
-        <div class="error">
-          SIN NOTICIAS CARGADAS HOY<br><br>
-          VOLVÉ MÁS TARDE
+    } catch(e) {
+      document.getElementById('grid').innerHTML = `
+        <div class="vacio">
+          AÚN NO HAY MEMES HOY<br>
+          VOLVÉ MÁS TARDE<br><br>
+          <a href="https://instagram.com/memeurgente" target="_blank" style="color:var(--rojo);text-decoration:none;">@MEMEURGENTE</a>
         </div>
       `;
     }
   }
 
-  cargarNoticias();
+  cargar();
 </script>
 </body>
 </html>
