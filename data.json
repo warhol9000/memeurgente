@@ -9,12 +9,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Sabías que un ovillo de lino salvó a un príncipe de morir en el Laberinto?\"",
-      "Personaje o hecho histórico": "El mito de Teseo y Ariadna.",
-      "Por qué importa": "Esta decisión muestra cómo el amor puede llevar a actos inesperados e incluso traidores, como cuando Ariadna entrega el ovillo para salvar a Teseo, aunque luego lo abandone en Naxos.",
-      "Imagen sugerida": "Teseo y Ariadna en el umbral del Laberinto, con el ovillo de lino brillando en sus manos, mientras el monstruo acecha en la penumbra.",
-      "Copy desarrollado": "En una Creta mitológica, Teseo, príncipe de Atenas, se une a las víctimas del Minotauro para entrar en el Laberinto. Ariadna, su guía, le da un ovillo de hilo con la promesa de que, si lo desenrollaba, encontraría el camino de vuelta. El héroe logra matar al monstruo, pero en Naxos olvida su promesa y abandona a Ariadna. ¿Fue un error de memoria o un frío cálculo? La historia nos muestra que el amor y la traición coexisten incluso en la mitología.",
-      "Hashtags": "#MitoDelLaberinto #Teseo #Ariadna #HistoriaDeLosGriegos #MitoGriego #HistoriaViral #CreadoresDeContenido #HistoriaHumana"
+      "Hook inicial": "\"Alas de cera que soñaron el cielo, pero solo soportaron la luz\"",
+      "Personaje o hecho histórico": "Dédalo y Ícaro",
+      "Por qué importa": "Es la primera gran hazaña técnica de la historia occidental, un escape que nació de la innovación y el arrojo, pero que terminó en tragedia por un error humano. Muestra cómo la creatividad puede volar pero también quemar.",
+      "Imagen sugerida": "Dédalo y Ícaro, con alas de cera hechas a mano, en el momento justo antes del vuelo, con el cielo abierto y la luz solar en el fondo.",
+      "Copy desarrollado": "En Creta, el ingeniero Dédalo, perseguido por Minos, diseñó unas alas de cera para escapar. Su hijo, el audaz Ícaro, se atrevió a volar. \"No te olvides de mantener la cera fría\", le advirtió su padre. Pero el viento y el sol lo cegaron. Ícaro olvidó el consejo y se derritió. Solo Dédalo sobrevivió, llevando consigo la primera técnica del mundo. La historia de las alas de Creta es un mito sobre el límite entre la imaginación y la realidad, y el peligro de la arrogancia.",
+      "Hashtags": "#Dedalo #Icaro #AlasDeCera #HistoriaDeLosGriegos #Mitologia #Innovacion #ErrorHumano #Vuela"
     },
     {
       "id": 2,
@@ -25,12 +25,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que Schliemann fue ridiculizado inicialmente, pero sus descubrimientos demostraron ser correctos?",
-      "Personaje o hecho histórico": "Heinrich Schliemann y la búsqueda del tesoro de Príamo.",
-      "Por qué importa": "Schliemann, considerado un loco en su época, desenterró objetos que inicialmente no fueron creídos, pero posteriormente demostraron ser el tesoro de Troya. Esto muestra cómo la historia a menudo necesita tiempo para ser comprendida.",
-      "Imagen sugerida": "Un montón de monedas de oro brillando bajo la luz, con la sombra de Schliemann observando.",
-      "Copy desarrollado": "En 1870, el arqueólogo Heinrich Schliemann, obsesionado con demostrar la existencia de Troya, encontró en la colina de Hisarlik un tesoro de oro y plata. Inicialmente, nadie lo creyó. Se especuló que había sido robado. Pero Schliemann, con su insistencia, demostró que era real. Este descubrimiento cambió todo: confirmó la existencia de Troya y la historia de Homero. Hoy, este tesoro es el símbolo más famoso de la ciudad. ¿La prueba de que la historia puede sorprendernos?",
-      "Hashtags": "#Schliemann #Troya #DescubrimientosArqueologicos #HistoriaIncreible #HeinrichSchliemann #TesorosDeTroya #HistoriaGriegas #Arqueologia"
+      "Hook inicial": "\"Un rey pagó con niños la traición de su mujer\"",
+      "Personaje o hecho histórico": "Minos y el Minotauro",
+      "Por qué importa": "Describe el sistema de sacrificios anuales impuesto por un líder despiadado como castigo por la falta de herederos. Es un ejemplo cruel y simbólico de cómo la política personal puede convertirse en sufrimiento colectivo.",
+      "Imagen sugerida": "Niños atenientes siendo escoltados hacia el interior de una gigantesca estructura laberíntica, con el cielo griego en el fondo.",
+      "Copy desarrollado": "El rey Minos de Creta, herido por la infidelidad de su mujer Pasifae (que engañó al dios Poseidón), encarceló al creador del Laberinto, Dédalo, y al Minotauro. Para justificarlo, exigía cada año a Atenas siete jóvenes como sacrificios. El más famoso de ellos fue Teseo, quien logró matar al monstruo. Esta historia nos recuerda cómo la venganza personal puede convertirse en un verdadero tributo pagado por los más indefensos.",
+      "Hashtags": "#Minos #Minotauro #Sacrificio #HistoriaDeLosGriegos #PoliticaAntigua #Teseo #Atenas #Creta"
     },
     {
       "id": 3,
@@ -41,12 +41,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"El tesoro de Troya: ¿una broma o la prueba definitiva de la existencia de Homero?\"",
-      "Personaje o hecho histórico": "El descubrimiento del tesoro de Príamo en Troya.",
-      "Por qué importa": "Este hallazgo, inicialmente rechazado, demostró que Homero no había inventado todo. Miles de objetos de oro y plata confirmaron detalles de la Ilíada. La escena muestra la tensión entre la incredulidad y la evidencia.",
-      "Imagen sugerida": "Un corte de película muda mostrando Schliemann abriendo la caja de tesoro, con luces doradas en el fondo.",
-      "Copy desarrollado": "En 1870, Schliemann encontró en Troya miles de objetos de oro y plata. La gente dijo: \"¡Es un fraude!\". Pero él insistió. Finalmente, arqueólogos escépticos confirmaron que era real. Este tesoro no era ficción, era historia. Homero había sido fiel a sus descripciones. Este hallazgo no solo confirmó la existencia de Troya, sino que abrió las puertas a la arqueología. Hoy, el tesoro es el símbolo más famoso de la ciudad.",
-      "Hashtags": "#Troya #Homero #Schliemann #TesorosDeTroya #HistoriaGriegas #Arqueologia #DescubrimientosHistoricos #HistoriaDeLosGriegos"
+      "Hook inicial": "\"¿Sabías que el arquitecto de la salida del Laberinto fue una princesa?\"",
+      "Personaje o hecho histórico": "Ariadna y Teseo",
+      "Por qué importa": "Ariadna, hija de Minos, no solo se enamoró del joven Teseo, sino que le dio una herramienta crucial para vencer al monstruo. Muestra cómo la inteligencia femenina puede ser decisiva en la resolución de problemas complejos.",
+      "Imagen sugerida": "Ariadna, con el cabello suelto y una expresión determinada, entregando un ovillo de hilo a Teseo en el umbral del Laberinto.",
+      "Copy desarrollado": "En el corazón del mítico Laberinto de Cnosos habitaba el Minotauro. Teseo, rey de Atenas, se atrevió a entrar para derrotarlo. Pero el laberinto era imposible. Ariadna, la hija del rey Minos, vio a Teseo y se enamoró. Decidió ayudarlo. Le entregó un ovillo de hilo para que, desenrollándolo, siempre tuviera la salida presente. Su inteligencia y su amor le dieron la clave para la hazaña. La historia de Ariadna nos enseña que a veces la solución está en la conexión y la comprensión.",
+      "Hashtags": "#Ariadna #Teseo #Laberinto #HistoriaDeLosGriegos #Mito #HiloDeAriadna #Atenas #Creta"
     },
     {
       "id": 4,
@@ -57,12 +57,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Sabías que Schliemann fue llamado 'loco' en su vida, pero transformó la historia griega?\"",
-      "Personaje o hecho histórico": "La carrera de Heinrich Schliemann y sus contribuciones arqueológicas.",
-      "Por qué importa": "A pesar de ser ridiculizado y enfrentar problemas legales, Schliemann continuó excavando. Sus descubrimientos demostraron que la civilización micénica existió, lo que cambió la visión de la historia griega.",
-      "Imagen sugerida": "Schliemann en una imagen de archivo, con un aire de determinación.",
-      "Copy desarrollado": "Heinrich Schliemann, llamado loco en su vida, fue el arqueólogo que llevó a la luz los restos de la civilización micénica. A pesar de ser ridiculizado y enfrentar problemas legales, continuó excavando. En Micenas, descubrió tesoros que demostraban la existencia de figuras como Agamenón. Este loco, sin duda, tenía un don. Su obsesión transformó la historia griega, demostrando que Homero no era solo mito. Hoy, su legado perdura en los museos y libros de historia.",
-      "Hashtags": "#Schliemann #HistoriaGriegas #Micenas #Troya #CivilizacionMicénica #Arqueologia #HistoriaDeLosGriegos #HeinrichSchliemann"
+      "Hook inicial": "\"El mayor error de un rey: encarcelar al arquitecto que diseñó su prisión\"",
+      "Personaje o hecho histórico": "Minos y Dédalo",
+      "Por qué importa": "Minos, en su venganza por la traición de su mujer, no solo encarcela al Minotauro, sino al propio creador del Laberinto. Es un ejemplo perfecto de cómo la política emocional puede llevar a soluciones absurdamente complejas y auto-destructivas.",
+      "Imagen sugerida": "Minos, con autoridad, señalando el interior del Laberinto construido por Dédalo, mientras el arquitecto mira con resignación desde afuera.",
+      "Copy desarrollado": "Minos, rey de Creta, estaba furioso. Su mujer, Pasifae, lo había traicionado. El dios Poseidón había respondido enamorándola de Dédalo, el mejor arquitecto del mundo. Minos lo encarceló. Pero Dédalo había diseñado el mismo Laberinto donde estaba encerrado. Un error de liderazgo increíblemente simbólico. La historia nos muestra cómo el odio puede convertir la creatividad en prisión.",
+      "Hashtags": "#Minos #Dedalo #Laberinto #HistoriaDeLosGriegos #Arquitecto #PensamientoCreativo #ErrorDeLiderazgo #Creta"
     },
     {
       "id": 5,
@@ -73,12 +73,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Qué si Homero no hubiera existido? Schliemann podría no haber descubierto Troya.\"",
-      "Personaje o hecho histórico": "La conexión entre Homero y Schliemann.",
-      "Por qué importa": "Schliemann se guió por la descripción de Homero para encontrar Troya. Su descubrimiento demuestra que Homero no había mentido en todos los detalles, sino que había basado su obra en hechos reales.",
-      "Imagen sugerida": "Homero y Schliemann en un dibujo histórico, con un mapa de Troya en el fondo.",
-      "Copy desarrollado": "El arqueólogo Heinrich Schliemann se basó en la descripción de Homero para encontrar Troya. Su obsesión lo llevó a descubrir el tesoro de Príamo, que confirmaba cada detalle de la Ilíada. Este descubrimiento demostró que Homero no había inventado todo. La historia de Troya, en ese momento, pasaba de la mitología a la historia real. Fue el punto de partida para entender la civilización micénica.",
-      "Hashtags": "#Homero #Troya #Schliemann #HistoriaGriegas #Ilíada #DescubrimientosArqueologicos #TroyaHistoria #CivilizacionMicénica"
+      "Hook inicial": "\"La primera vez que la humanidad voló, quemóse en el intento\"",
+      "Personaje o hecho histórico": "Ícaro",
+      "Por qué importa": "Es el primer mito sobre el vuelo humano. Ícaro, el hijo de Dédalo, fue el primero en intentar usar alas para volar, aunque su intento terminó en tragedia por un error humano. Es el origen de la fascinación por el vuelo y el límite de la tecnología.",
+      "Imagen sugerida": "Ícaro en el cielo, con las alas de cera, pero con la figura ya empezando a desmoronarse por el calor.",
+      "Copy desarrollado": "Dédalo, el ingeniero de Creta, construyó alas de cera para escapar. Su hijo, Ícaro, tuvo el valor de volar. Pero el sol, el viento y la emoción lo cegaron. La cera se derritió. Ícaro se perdió en el mar. Solo su padre sobrevivió. Este mito no es solo sobre el vuelo, sino sobre el límite entre la imaginación y la realidad, y el peligro de la arrogancia.",
+      "Hashtags": "#Icaro #AlasDeCera #Vuelo #HistoriaDeLosGriegos #Mitologia #Arte #Innovacion #ErrorHumano"
     },
     {
       "id": 6,
@@ -89,12 +89,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"Schliemann: el arqueólogo que encontró Troya y fue tachado de loco.\"",
-      "Personaje o hecho histórico": "La vida y obra de Heinrich Schliemann.",
-      "Por qué importa": "A pesar de ser considerado un loco en su época, Schliemann logró lo que nadie antes había conseguido: confirmar la existencia de Troya. Su obsesión y perseverancia abrieron las puertas a la arqueología.",
-      "Imagen sugerida": "Schliemann en una foto antigua, con un aspecto decidido y un casco arqueológico.",
-      "Copy desarrollado": "Heinrich Schliemann, llamado loco por su obsesión, fue el primero en demostrar la existencia de Troya. Siguiendo la pista de Homero, encontró el tesoro de Príamo. Inicialmente, nadie lo creyó. Pero Schliemann, con su tesón, demostró que había descubierto la ciudad perdida. Hoy, su legado es evidente: Troya es un símbolo de la historia real. Este loco, sin duda, tenía un don.",
-      "Hashtags": "#Schliemann #Troya #HistoriaGriegas #Arqueologia #DescubrimientosHistoricos #HeinrichSchliemann #TroyaHistoria #CivilizacionMicénica"
+      "Hook inicial": "\"El ovillo de hilo que permitió encontrar la salida\"",
+      "Personaje o hecho histórico": "Ariadna y Teseo",
+      "Por qué importa": "Es un ejemplo perfecto de solución inteligente frente a un problema complejo (el Laberinto). Ariadna, con su conocimiento del amor y la necesidad, no solo se enamoró de Teseo, sino que le dio la herramienta mental para resolver el laberinto.",
+      "Imagen sugerida": "Ariadna, con el ovillo de hilo en sus manos, sonriendo sutilmente mientras observa a Teseo avanzar en el Laberinto.",
+      "Copy desarrollado": "Teseo se enfrentaba al mítico Laberinto de Cnosos, el lugar donde habitaba el Minotauro. Un laberinto imposible de resolver. Ariadna, su guía, no solo lo ayudó en su corazón, sino que le dio una solución práctica. Le entregó un ovillo de hilo, que iba desenrollando constantemente para siempre recordar la salida. Es la historia de cómo la inteligencia y el amor pueden resolver problemas aparentemente insolubles.",
+      "Hashtags": "#Ariadna #Teseo #Laberinto #HistoriaDeLosGriegos #Mito #SolucionInteligente #HiloDeAriadna #Creatividad"
     },
     {
       "id": 7,
@@ -105,12 +105,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que los antiguos griegos bebían agua y usaban la miel como azúcar?",
-      "Personaje o hecho histórico": "La cultura y costumbres de los griegos arcaicos.",
-      "Por qué importa": "Un dato sorprendente sobre su alimentación diaria que muestra su estilo de vida único y su desconocimiento de ciertas prácticas modernas, impactando por la contrastante imagen entre lo cotidiano y lo exótico.",
-      "Imagen sugerida": "Una imagen de un niño griego arcaico con una copa de agua y un cuenco de miel, en un ambiente antiguo.",
-      "Copy desarrollado": "En la Antigua Grecia, la vida era muy diferente a la nuestra. ¿Sabías que los griegos bebían agua pura y usaban la miel como azúcar refinada? Esta práctica refleja su desconocimiento de la minería metálica y su dependencia de importaciones, lo que limitaría su desarrollo. Pero también nos hace verlos como una cultura con sus propias lógicas y tradiciones, que, paradójamente, nos resultan fascinantes hoy. ¡Descubre cómo una simple copa de agua puede revelar la historia de un pueblo!",
-      "Hashtags": "#HistoriaDeLosGriegos #AntiguaGrecia #CuriosidadesHistoricas #MielAntigua #DatoImpactante #AzucarMiel #GreciaArcaica #HistoriaImpactante"
+      "Hook inicial": "\"La primera 'red social' para encontrar el camino de vuelta\"",
+      "Personaje o hecho histórico": "Ariadna y el ovillo de hilo",
+      "Por qué importa": "Es una metáfora perfecta para la navegación digital. El ovillo de hilo es la versión mítica de un algoritmo de navegación o un sistema de bookmarks, permitiendo a Teseo (y a nosotros) encontrar el camino de vuelta en un laberinto.",
+      "Imagen sugerida": "Un ovillo de hilo digital, con iconos representando cada paso del Laberinto, conectados por líneas.",
+      "Copy desarrollado": "En el mítico Laberinto de Cnosos, la princesa Ariadna dio a Teseo el ovillo de hilo. Índice, navegador y recordatorio todo en uno. Lo iba desenrollando constantemente para siempre tener la salida presente. Es una lección eterna sobre cómo la organización y la memoria ayudan a navegar por sistemas complejos, ya sea un laberinto físico o la red digital.",
+      "Hashtags": "#Ariadna #OvilloDeHilo #Laberinto #HistoriaDeLosGriegos #Metaphor #Navegacion #RedSocial #Creatividad"
     },
     {
       "id": 8,
@@ -121,12 +121,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que Atenas tenía 200,000 habitantes pero solo 20,000 ciudadanos activos?",
-      "Personaje o hecho histórico": "La ciudadanía limitada en la Grecia antigua.",
-      "Por qué importa": "Este dato revela una contradicción clave sobre el concepto de ciudadanía en la Grecia antigua, donde la participación política estaba restringida a una minoría. Muestra cómo el exclusivismo de la polis, aunque unificador, limitaba el crecimiento de la democracia.",
-      "Imagen sugerida": "Un mapa de Atenas con un círculo destacando el centro de la ciudad y otra parte más amplia con un signo de exclamación, representando la diferencia entre ciudadanos y el resto de la población.",
-      "Copy desarrollado": "En la Grecia antigua, la ciudadanía era un privilegio limitado. Atenas, con más de 200,000 habitantes, solo permitía el voto a 20,000 ciudadanos. ¿El porqué? Porque el espíritu de la polis, tan sagrado para los griegos, excluía a los extranjeros y hasta a los esclavos. Este dato nos muestra cómo el exclusivismo que tanto valoraban los griegos frenaba el crecimiento de sus democracias. ¿Fue esta limitación el origen de su declive? #GreciaAntigua #CiudadaníaAntigua #HistoriaDeLosGriegos #Atenas",
-      "Hashtags": "#GreciaAntigua #CiudadaníaAntigua #HistoriaDeLosGriegos #Atenas #SociedadGriegas #DemocraciaAntigua #EspirituDeLaPolis #Antigüedad"
+      "Hook inicial": "\"Un monstruo alimentado con el orgullo de su creador\"",
+      "Personaje o hecho histórico": "Minotauro",
+      "Por qué importa": "El Minotauro es el resultado del amor de Minos por Dédalo, encarcelado y convertido en un monstruo. Es una metáfora cruel sobre cómo la creatividad reprimida puede convertirse en algo peligroso y devorador.",
+      "Imagen sugerida": "El Minotauro, con cabeza de toro y cuerpo humano, devorando ofrendas, en una cueva oscura.",
+      "Copy desarrollado": "El Minotauro nació de la venganza de Minos. El rey encarceló a Dédalo por su amor y su creatividad. El monstruo, alimentado por el odio y la prisión, devoraba a los jóvenes atenienses como sacrificio. Es la historia de cómo la traición y la reclusión de la genialidad pueden dar lugar a una fuerza destructora.",
+      "Hashtags": "#Minotauro #Dedalo #Minos #HistoriaDeLosGriegos #Creatividad #Traicion #Metaphor #CreatividadCreatura"
     },
     {
       "id": 9,
@@ -137,12 +137,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "Dioses o plebeyos: ¿quién escribió la historia de Grecia?",
-      "Personaje o hecho histórico": "Homero vs. Hesíodo",
-      "Por qué importa": "Muestra cómo dos visiones opuestas definieron a Grecia. Homero pintaba solo el \"frontón aristocrático\", mientras Hesíodo revelaba la dura realidad de los campesinos. Uno vendía héroes elegantes, el otro la dura vida rural.",
-      "Imagen sugerida": "Homero con atuendo noble enfrentado a Hesíodo con ropas simples, como si fueran personajes de una serie de dibujos animados. En primer plano, sus obras brillando: Ilíada vs. Trabajos y días.",
-      "Copy desarrollado": "En Grecia nacieron dos poetas que dividieron el mundo... Homero, el \"poeta cortesano\", servía a príncipes con historias de héroes dorados. Hesíodo, el granjero honesto, vio el otro lado. Mientras uno pintaba palacios, el otro describía labores. ¿Quién fue quien mejor vio a la verdadera Grecia? El tiempo lo ha decidido: uno es famoso, el otro... sigue siendo fundamental. Pero la historia no siempre premia lo bonito.",
-      "Hashtags": "#HistoriaDeGrecia #Hesíodo #Homero #ContrasteHistorico #LiteraturaClásica #GreciaAntigua #VerdadOColores #DobleHistoria"
+      "Hook inicial": "¿Sabías que el tesoro más valioso de la Antigüedad fue \"descubierto\" gracias a un loco obsesionado con Homero?",
+      "Personaje o hecho histórico": "Heinrich Schliemann y la \"Troeja Escondida\"",
+      "Por qué importa": "La historia demuestra cómo la pasión personal puede derrotar la incredulidad académica, llevando a un descubrimiento arqueológico que cambió la percepción de la civilización micénica y demostró la existencia de Troya, poniendo fin a la polémica sobre la veracidad de Homero.",
+      "Imagen sugerida": "Imagen dramática de Schliemann, con barba larga y bigote, emocionado, observando un esplendoroso collar de oro brillando bajo una lona en lo que parece un campamento improvisado en el monte Hissarlik.",
+      "Copy desarrollado": "En una mezcla de obsesión y fortuna, el rico comerciante Heinrich Schliemann, convencido de que Homero había ocultado la ubicación de Troya, desenterró accidentalmente un tesoro dorado de la Troya IX, que él llamó el \"tesoro de Príamo\". Este hallazgo, increíblemente valioso, fue inicialmente rechazado por la comunidad científica y las autoridades turcas, que lo acusaron de fraude. Sin embargo, la evidencia era demasiado convincente, y las excavaciones continuas revelaron no solo Troya, sino nueve ciudades diferentes. Este tesoro, ahora expuesto en museos, es el fruto de la audaz, aunque controvertida, búsqueda de un hombre que creía vivir en la misma época que Homero. ¡Un ejemplo increíble de cómo la fe lleva a la verdad!",
+      "Hashtags": "#Troya #Schliemann #Arqueología #TesorosAntiguos #HeinrichSchliemann #DescubrimientosHistoria #HistoriaViral #Micénicos"
     },
     {
       "id": 10,
@@ -153,12 +153,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Por qué los ricos temen a los jóvenes?",
-      "Personaje o hecho histórico": "El mito de Cronos y sus hijos",
-      "Por qué importa": "Cronos, el padre temeroso, devoraba a sus hijos para evitar que lo derrocaran. Un mito que refleja el miedo universal de los poderosos a ser superados por la nueva generación. La lección: Zeus no se comió, se rebeló.",
-      "Imagen sugerida": "Cronos tragando a uno de sus hijos con mirada de pánico, mientras Zeus lo observa desde lo alto, listo para rebelarse. En el fondo, el caos del Tártaro.",
-      "Copy desarrollado": "En el mito de Cronos, el miedo de un padre a perder el poder tomó forma. Cronos devoraba a sus hijos para evitar que lo derrocara. Pero uno de ellos, Zeus, no pudo más y se rebeló. Cronos tragó lo indeciso... y fue derrocado. Un cuento de hadas que habla de algo real: el miedo de los líderes a ser superados por los más jóvenes. ¿Quién es el Cronos de hoy?",
-      "Hashtags": "#MitoDelMes #HistoriaDeGrecia #Cronos #Zeus #Rebelión #MiedoAlJoven #HistoriaDePoder #HistoriaViral"
+      "Hook inicial": "¿Un loco con un mapa antiguo y una fortuna que lo guía en su búsqueda? Así fue cómo se descubrió la civilización micénica.",
+      "Personaje o hecho histórico": "La búsqueda del \"tesoro de Príamo\" por parte de Schliemann.",
+      "Por qué importa": "Esta búsqueda obsesiva no solo llevó al descubrimiento del Tesoro de Príamo, el mayor hallazgo arqueológico de su tiempo, sino que transformó completamente la comprensión de la civilización griega anterior a Homero. Schliemann, guiado por el texto sagrado de Homero, buscaba no solo confirmar la historia, sino construir una nueva realidad arqueológica.",
+      "Imagen sugerida": "Imagen de Schliemann, con aspecto de aventurero medieval, explorando meticulosamente una cámara subterránea con un mapa en las manos, mientras en el fondo se distinguen brillantes piezas de oro.",
+      "Copy desarrollado": "Heinrich Schliemann no solo encontró un tesoro, sino que decidió demostrar al mundo que Homero no había mentido. Convencido de que el tesoro de Príamo estaba escondido en el monte Hissarlik, su obsesión lo llevó a seguir excavando incluso cuando los escépticos creían que todo había sido un invento. Su perseverancia fue recompensada con el hallazgo del famoso Tesoro de Príamo, piezas doradas de la época micénica que confirmaron la existencia de la Troya Homérica. Este tesoro, junto con los esqueletos de nobles encontrados en Micenas, forzó a la arqueología a reevaluar toda la historia de Grecia, demostrando que la civilización micénica era real y había existido antes que Homero. ¡La historia de Schliemann es un ejemplo de cómo la fe en lo escrito puede guiarte hacia la verdad arqueológica!",
+      "Hashtags": "#HistoriaGriega #Micénicos #Schliemann #TroyaIX #TesoroDePríamo #ArqueologíaMicénica #Homero #HistoriaReal"
     },
     {
       "id": 11,
@@ -169,12 +169,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que los etruscos usaban el sistema de gobierno romano para gobernar a otros?",
-      "Personaje o hecho histórico": "El pueblo etrusco",
-      "Por qué importa": "Contrario a la creencia popular, fueron los etruscos quienes diseñaron el sistema de gobierno del Capitolio que luego adoptaron los romanos para dominar a otras ciudades italianas. Este hecho revela cómo Roma no siempre copió ideas propias, sino que reutilizó las de sus predecesores.",
-      "Imagen sugerida": "Imagen de un templo etrusco con estatuas de los doce dioses principales, donde parecen discutir, con el Capitolio romano en segundo plano como homenaje.",
-      "Copy desarrollado": "En un giro sorprendente de la historia, fueron los etruscos quienes diseñaron el famoso sistema de gobierno del Capitolio (con sus doce tribunos y ediles) que luego los romanos adaptarían para gobernar otras ciudades italianas. Este sistema, nacido en Etruria, fue el instrumento que permitió a Roma expandirse y convertirse en la hegemóna del Mediterráneo. Pero cuidado: ¿acaso los romanos estaban copiando el modelo que los etruscos usaban para controlar a otros? La historia de Roma siempre estuvo influenciada por la sabiduría etrusca, pero Roma lo hizo a su manera.",
-      "Hashtags": "#HistoriaDeRoma #Etruria #SistemaDe Gobierno #HistoriaDeItalia #ContratiemposHistoricos #Antigüedad #InfluenciaEtrusca #Capitolio #HistoriaDeEuropa"
+      "Hook inicial": "¿Sabías que César tenía calvicie y se peinaba canoso?",
+      "Personaje o hecho histórico": "Julio César",
+      "Por qué importa": "Este dato muestra a César como un líder humano con preocupaciones incluso por su imagen física. A pesar de ser un conquistador temido, su calvicie lo llevó a recurrir a métodos como teñirse el cabello, lo que refleja cómo las imperfecciones humanas pueden afectar incluso a los más grandes líderes.",
+      "Imagen sugerida": "Julio César con cabello canoso, usando una toquilla para ocultar su calvicie, con un fondo militar.",
+      "Copy desarrollado": "¿Imagina a Julio César, el líder que unió a toda Europa, preocupado por su calvicie? En una época sin productos capilares, César recurrió a un truco poco honorable: teñirse el cabello. Este dato, que forma parte de su vida personal, nos recuerda que incluso los héroes más grandes tenían preocupaciones mundanas. Al conocer esto, vemos a César no solo como un conquistador, sino como un hombre con las mismas luchas que tú y yo. ¡La historia de Roma no es solo de héroes perfectos, sino de personajes con sus propios secretos y defectos!",
+      "Hashtags": "#HistoriaDeRoma #JulioCesar #CalvicieAntigua #HistoriaViral #PersonajesHistoricos #RomaAntigua #HistoriaImpactante #CesarViril"
     },
     {
       "id": 12,
@@ -185,12 +185,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¡La reforma militar que cambió el ejército romano!",
-      "Personaje o hecho histórico": "Marco Furio Camilo, dictador de Roma.",
-      "Por qué importa": "Camilo introdujo el estipendio (soldada), permitiendo que los soldados romanos fueran pagados. Esto transformó la estructura militar, convirtiendo a Roma en una potencia invencible gracias a un ejército más motivado y profesional.",
-      "Imagen sugerida": "Un escudo romano con la imagen de un soldado romano recibiendo monedas de estipendio, mientras trasfondo hay un campo de batalla victorioso.",
-      "Copy desarrollado": "En el año 363 a.C., el dictador Marco Furio Camilo revolucionó el ejército romano al introducir el estipendio. Antes, los soldados luchaban sin pago, lo que obligaba a sus familias a hambrear. Camilo entendió que pagarlos era justo y aumentó su moral. Así, el ejército se convirtió en una máquina de guerra invencible, la base del imperio. ¡Una decisión que cambió la faz de Europa!",
-      "Hashtags": "#HistoriaDeRoma #MarcoFurioCamilo #SoldadaRomana #EjercitoRomano #InnovacionMilitera #HistoriaDeEuropa #ReformaMilitar"
+      "Hook inicial": "¿Sabías que las primeras escuelas romanas se fundaron en el 250 a.C.?",
+      "Personaje o hecho histórico": "Fundación de las primeras escuelas romanas",
+      "Por qué importa": "Este dato revela que la educación formal en Roma no surgió hasta casi 500 años después de su fundación. Muestra cómo la organización social y cultural del Imperio tardó en establecer sus instituciones educativas, lo que refleja la evolución misma de la ciudad.",
+      "Imagen sugerida": "Un maestro (liberto) enseñando a niños en una escuela romana, con un pizarrón antiguo y un ambiente de clase.",
+      "Copy desarrollado": "¿Sabías que las primeras escuelas regulares en Roma aparecieron en el año 250 a.C.? ¡Casi 500 años después de que la ciudad fue fundada! Este dato nos muestra cómo incluso en la antigüedad, la educación formal tardó en consolidarse. Los primeros maestros, elegidos entre esclavos libres, enseñaban a los jóvenes las bases de la ciudadanía. Este hecho refleja la evolución de Roma desde una ciudad primitiva hacia un imperio organizado. Al conocerlo, entendemos mejor cómo la educación forma parte esencial del desarrollo histórico.",
+      "Hashtags": "#EscuelasRomanas #HistoriaDeRoma #EducacionAntigua #HistoriaViral #RomaAntigua #IndroMontanelli #HistoriaImpactante #CalendarioRomano"
     },
     {
       "id": 13,
@@ -201,12 +201,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¡La frase icónica que gritaron los vencidos!",
-      "Personaje o hecho histórico": "Brenno, líder de los galos.",
-      "Por qué importa": "Brenno, al saquear Roma, pronunció \"Vae victis!\" (\"¡Ay de los vencidos!\") mientras pesaba el botín robado. Esta frase, que nació de la derrota de Roma, se convirtió en un símbolo de resistencia y orgullo romano.",
-      "Imagen sugerida": "Brenno con un atuendo gala, apoyado en un montón de oro, con la frase \"Vae victis!\" escrita en relieve detrás de él.",
-      "Copy desarrollado": "Los galos, liderados por Brenno, conquistaron Roma en el 390 a.C. y la saquearon. Durante el saqueo, Brenno ordenó que pesaran el oro robado mientras gritaba \"Vae victis!\". Esta frase, que parecía victoria gala, se convirtió en el grito de Roma para levantarse. Fue el punto de inflexión que llevó a Camilo a reconstruir el imperio.",
-      "Hashtags": "#VaeVictis #HistoriaDeRoma #GALOS #Brenno #SaqueoDeRoma #ResistenciaRomana #HistoriaAntigua #EpicaHistoria"
+      "Hook inicial": "Augusto casi pierde una batalla por diarrea.",
+      "Personaje o hecho histórico": "Augusto y su primera batalla",
+      "Por qué importa": "Esta anécdota muestra a Augusto, uno de los líderes más grandes de Roma, en una situación humana y vulnerable. Nos recuerda que incluso los emperadores más respetados enfrentaban problemas cotidianos que afectaban sus decisiones.",
+      "Imagen sugerida": "Augusto con cara de cansancio y dolor, en medio de un campo de batalla desordenado.",
+      "Copy desarrollado": "¿Imagina a Augusto, el emperador que llevó a Roma a su máxima gloria, perdiendo una batalla por culpa de la diarrea? Esta anécdota, que forma parte de su vida personal, nos muestra a este líder no como un mito, sino como un ser humano con las debilidades propias de cualquier persona. La historia de Roma no es solo de triunfos, sino también de fracasos humanos. Al conocer estas pequeñas batallas de los grandes líderes, vemos la verdadera esencia de la historia.",
+      "Hashtags": "#AugustoImperator #HistoriaDeRoma #LiderazgoHumano #HistoriaViral #RomaAntigua #ImperioRomano #PersonajesHistoricos #CesarAugusto"
     },
     {
       "id": 14,
@@ -217,12 +217,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¡El dictador que fue acusado y rehabilitado!",
-      "Personaje o hecho histórico": "Marco Furio Camilo.",
-      "Por qué importa": "A pesar de ser acusado de avaricia y llevar una vida de exilio voluntario, Camilo fue reconocido como el \"segundo fundador de Roma\" cuando salvó a Roma de los galos. Su rehabilitación muestra cómo la historia juzga y redibuja a los líderes.",
-      "Imagen sugerida": "Marco Furio Camilo vestido de dictador, con un halo de gloria rodeado de símbolos de Roma (escudo, lira, laurel), contrastando con una figura sombreada de acusación en el fondo.",
-      "Copy desarrollado": "Marco Furio Camilo, el dictador que introdujo el estipendio, fue acusado de avaricia y exiliado. Durante el saqueo galio, fue llamado de vuelta para salvar Roma. Su valentía y liderazgo le dieron el título de \"segundo fundador de Roma\". Una vida que pasó de la acusación a la canonización en la historia.",
-      "Hashtags": "#MarcoFurioCamilo #SegundoFundador #HistoriaDeRoma #BiografiaHistorica #Liderazgo #ReputacionHistorica #HistoriaAntigua #FigurasHistoricas"
+      "Hook inicial": "¿Sabías que los héroes de Roma tenían vicios?",
+      "Personaje o hecho histórico": "Vicios de los líderes romanos",
+      "Por qué importa": "Este dato muestra a líderes como César y Augusto con rasgos humanos, incluso negativos. Nos recuerda que la historia no es solo de héroes perfectos, sino de personajes con sus propios defectos y luchas.",
+      "Imagen sugerida": "Una taberna llena de líderes romanos conversando y bebiendo, con miradas divertidas y relajadas.",
+      "Copy desarrollado": "¿Crees que los líderes romanos eran perfectos? ¡Nada más lejos de la realidad! César era mujeriego, Augusto tenía problemas de salud, y muchos otros mostraban sus vicios y defectos. Este dato nos muestra a los héroes de Roma como seres humanos con las mismas debilidades que tú y yo. La verdadera historia no es solo de triunfos, sino de la lucha constante entre el ideal y la realidad. Al conocer estos aspectos, entendemos mejor la complejidad de la historia.",
+      "Hashtags": "#HistoriaDeRoma #LiderazgoHumano #ViciosHistoricos #RomaAntigua #PersonajesHistoricos #HistoriaViral #CesarAugusto #HistoriaImpactante"
     },
     {
       "id": 15,
@@ -233,12 +233,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¡Roma saqueada y su frase icónica!",
-      "Personaje o hecho histórico": "Brenno y los galos.",
-      "Por qué importa": "Los galos saquearon Roma en el 390 a.C., pero no la destruyeron. Brenno, en su famosa frase, pidió oro en lugar de paz, ignorando el valor de la ciudad. Este error fue la semilla de su rápida reconstrucción.",
-      "Imagen sugerida": "Brenno con un atuendo gala, apoyado en un tesoro de oro, con el templo de Roma en llamas en el fondo.",
-      "Copy desarrollado": "En el 390 a.C., los galos saquearon Roma y Brenno, su líder, ordenó pesar el botín mientras gritaba \"Vae victis!\". Aunque Roma estaba derrotada, los galos no destruyeron la ciudad. ¡Un error que permitió que Roma se levantara y recuperara su gloria!",
-      "Hashtags": "#SaqueoDeRoma #HistoriaDeRoma #GALOS #Brenno #VaeVictis #HistoriaAntigua #CausaYConsecuencia #CronicasDeEuropa"
+      "Hook inicial": "¿Sabías que Cicerón y Carnelutti eran muy similares?",
+      "Personaje o hecho histórico": "Comparación entre Cicerón y Carnelutti",
+      "Por qué importa": "Esta anécdota muestra cómo la política romana no era tan diferente de la actual. Ambos políticos eran contemporáneos y comparten rasgos que podrían considerarse modernos, como el discurso y la estrategia.",
+      "Imagen sugerida": "Dos bustos de Cicerón y Carnelutti, con un fondo que muestra la Roma Antigua y una metáfora de la política moderna.",
+      "Copy desarrollado": "¿Sabías que Cicerón y Carnelutti, dos políticos de la Roma Antigua, eran sorprendentemente similares? Ambos eran oradores brillantes, políticos habilidosos y, según la crítica del autor, tenían puntos en común más allá de lo político. Esta comparación nos muestra cómo la esencia de la política no ha cambiado tanto a lo largo del tiempo. Al conocer esta curiosidad, vemos la continuidad entre la antigüedad y nuestra época en los temas que importan a los líderes.",
+      "Hashtags": "#Ciceron #Carnelutti #HistoriaDeRoma #PoliticaAntigua #PersonajesHistoricos #HistoriaViral #RomaAntigua #IndroMontanelli"
     },
     {
       "id": 16,
@@ -249,12 +249,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¡La reforma que democratizó el derecho!",
-      "Personaje o hecho histórico": "Ley de las Doce Tablas.",
-      "Por qué importa": "Los plebeyos consiguieron que las leyes fueran escritas en tablas públicas, eliminando el monopolio de los sacerdotes. Este acto sentó las bases para un sistema legal más justo y transparente.",
-      "Imagen sugerida": "Una tablilla de piedra con texto legible, rodeada de símbolos de justicia (balanza, escudo de Roma) y personas representando a los plebeyos.",
-      "Copy desarrollado": "En el corazón de Roma, los plebeyos lucharon por años para que las leyes fueran escritas. En un triunfo para la democracia, la Ley de las Doce Tablas llegó a la luz pública en el siglo V a.C. ¡Un hito que garantizó igualdad ante la ley!",
-      "Hashtags": "#LeyDeLasDoceTablas #HistoriaDeRoma #DemocraciaAntigua #JusticiaRomana #HistoriaLegal #SistemaLegal #JusticiaSocial #HistoriaAntigua"
+      "Hook inicial": "Los mejores profesores de Roma eran esclavos.",
+      "Personaje o hecho histórico": "Profesores romanos y el sistema de educación",
+      "Por qué importa": "Este dato revela cómo la educación en Roma se veía como una forma de elección social. Los mejores maestros eran esclavos libres, lo que refleja la estructura social de la época y cómo la enseñanza se convertía en una oportunidad para el ascenso social.",
+      "Imagen sugerida": "Un maestro esclavo-liberto enseñando a un niño en una escuela romana, con un ambiente de respeto y aprendizaje.",
+      "Copy desarrollado": "¿Sabías que los mejores profesores de la antigua Roma eran esclavos? Sí, en la Roma Antigua, los magistri eran elegidos entre los esclavos libres, lo que nos muestra cómo la educación era una puerta de entrada al mundo libre. Este dato refleja la estructura social de la época y cómo la enseñanza no era tan diferente a la nuestra en términos de movilidad social. Al conocerlo, entendemos mejor cómo la educación ha sido y sigue siendo un vehículo para el cambio social.",
+      "Hashtags": "#EducacionRomana #HistoriaDeRoma #EsclavosLibertos #ProfesoresAntiguos #RomaAntigua #IndroMontanelli #HistoriaViral #SistemaEducativo"
     },
     {
       "id": 17,
@@ -265,12 +265,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que los romanos contaban con sus dedos?",
-      "Personaje o hecho histórico": "Sistema numérico de los romanos",
-      "Por qué importa": "Muestra cómo nuestros números modernos nacen de representaciones corporales simples, conectando la antigüedad con nuestra experiencia cotidiana de contar. Es sorprendente descubrir que la base de nuestros sistemas numéricos está en los dedos.",
-      "Imagen sugerida": "Una imagen de un niño romano haciendo señas con las manos para contar, con los números I, V, X destacados debajo, como si fuera una tabla de valores.",
-      "Copy desarrollado": "¿Sabías que los números romanos nacen de cómo contaban los dedos? En tiempos antiguos, los romanos no usaban el sistema numérico como lo conocemos hoy, sino que lo representaban con sus propias manos. El número I era un dedo levantado, V dos manos abiertas y X dos manos cruzadas. Esta conexión entre la fisiología humana y la representación numérica es fascinante y muestra cómo las bases de nuestras matemáticas están arraigadas en la experiencia física misma. Es un dato curioso que revela la sencillez de las primeras formas de contar.",
-      "Hashtags": "#HistoriaDeRoma #Romano #Numeros #EducacionAntigua #Curiosidades #ArteNumerico #Antiguedades #ViralHistoria"
+      "Hook inicial": "¿Sabías que Roma fue grande gracias a sus errores?",
+      "Personaje o hecho histórico": "Roma y los errores de sus líderes",
+      "Por qué importa": "Este dato muestra cómo los errores, en lugar de ser simples fracasos, a veces impulsaban el avance de Roma. Nos recuerda que la historia no siempre sigue un camino recto, sino que a menudo los tropiezos y errores también juegan un papel clave.",
+      "Imagen sugerida": "Una estatua de Roma con un halo de éxito, pero con pequeños símbolos de error cerca.",
+      "Copy desarrollado": "¿Sabías que Roma fue grande no a pesar de sus errores, sino a pesar de ellos? Los tropiezos de sus líderes, sus decisiones fallidas y sus fracasos a menudo dieron paso a nuevas estrategias y conquistas. Este dato nos muestra que la historia no es solo un camino ascendente, sino un vaivén lleno de aprendizaje. Al conocerlo, entendemos mejor cómo los errores también pueden ser parte del éxito.",
+      "Hashtags": "#HistoriaDeRoma #RomaAntigua #ErroresHistoricos #HistoriaViral #RomaGrande #IndroMontanelli #PersonajesHistoricos #RomaVictoria"
     },
     {
       "id": 18,
@@ -281,12 +281,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"Los dioses domésticos: ¿Qué pedían realmente los romanos?\"",
-      "Personaje o hecho histórico": "La práctica religiosa romana con los Lares y Penates",
-      "Por qué importa": "Revela la sorpresa de encontrar en la religión antigua no grandes dioses del cielo, sino figuras muy terrenales, preocupadas por lo cotidiano como el pan, el trabajo o la fecundidad. Es un giro en nuestra comprensión del politeísmo.",
-      "Imagen sugerida": "Un dibujo antiguo de la familia romana ofreciendo un fruto (pan, pera) a una estatuilla pequeña de un dios hogareño, con un fondo doméstico.",
-      "Copy desarrollado": "En el mundo antiguo, los romanos pedían favores a dioses increíbles... ¡pero de la cocina! ¿Sabías que pedían a Abeona que les enseñara a caminar, a Po...mona que sus peras crecieran o a Saturno que les ayudara a sembrar? Estos eran los Lares y Penates, los dioses de la estancia, encargados de la prosperidad doméstica. No eran dioses del Olimpo con grandes preocupaciones morales, sino pequeños tutelares muy concretos, que exigían obediencia al padre y aceptación de la Ley, pero que además querían que las vacas tuvieran buena leche. Un dato que muestra la otra cara de la religión romana: tan terrenal como nuestra propia búsqueda del sustento.",
-      "Hashtags": "#HistoriaDeRoma #ReligionAntigua #DiosesDomesticos #Lares #CulturaAntigua #Antigüedad #ArteReligioso #HistoriaDiaria"
+      "Hook inicial": "¿Sabías que las mujeres etruscas eran consideradas tan libres que incluso se les llamaba así en Roma?",
+      "Personaje o hecho histórico": "La cultura etrusca y sus costumbres frente a Roma.",
+      "Por qué importa": "Muestra un contraste sorprendente entre las sociedades etrusca y romana. En un mundo donde la mujer estaba relegada, las etruscas gozaban de libertad, educación y derechos que años después, Roma no llegaría a igualar. Este dato revoluciona la percepción de la Antigua Roma.",
+      "Imagen sugerida": "Dos escenas paralelas: en una, una mujer etrusca con ropas llamativas, bebiendo y conversando con varones en un espacio público; en la otra, una escena romana del siglo I a.C. donde una mujer se cubre el rostro al escuchar a un hombre hablar.",
+      "Copy desarrollado": "En el corazón de la Etruria, antes de Roma, las mujeres gozaban de una libertad que hoy en día nos parece casi moderna. Vestidas, maquilladas y participando en la vida social como sus compañeros varones, hasta el punto de practicar matemáticas o medicina. En Roma, nacida de esta influencia pero con un camino distinto, la mujer sería poco a poco encerrada en el hogar. La diferencia fue radical. ¿La prueba? La palabra etrusca para describir el libertinaje femenino se convertiría en un insulto para Roma.",
+      "Hashtags": "#Etruria #AntiguaRoma #HistoriaDeLasMujeres #Antigüedad #CulturaAntigua #Romano #FeminismoAntiguo #Etruscas"
     },
     {
       "id": 19,
@@ -297,12 +297,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"La primera novela escrita: ¿Un error de traducción?\"",
-      "Personaje o hecho histórico": "Origen del teatro lírico romano con Livio Andrónico",
-      "Por qué importa": "Un hecho histórico curioso: el primer texto histórico escrito por los romanos no fue una historia, sino una adaptación de la Odisea gracias a que un esclavo griego tradujo poesía griega en lugar de relatos históricos. Es un dato que pone en duda el canon histórico romano.",
-      "Imagen sugerida": "Un esclavo griego (vestido típico) sentado, recitando mientras sostiene una tablilla de madera, con la sombra de escena de los Ludi Iuegos de Roma en el fondo.",
-      "Copy desarrollado": "¿Te imaginas que el primer texto histórico escrito por los romanos no fue una historia, sino una tragedia basada en la Odisea? En el año 240 a.C., el esclavo griego Livio Andrónico, cautivo en Roma, decidió contar los milagrosos viajes de Ulises para sus amigos. Para hacerlo divertido, tradujo la poesía griega en un formato lírico tosco en latín. Este \"error\" o acierto, convirtió a los romanos en amantes del teatro. Un dato fascinante que demuestra cómo el arte a menudo toma el camino más allá de lo intencionado.",
-      "Hashtags": "#HistoriaDeRoma #LivioAndronico #Antigüedad #Literatura #Teatro #HistoriaAntigua #Esclavos #Innovacion"
+      "Hook inicial": "\"El paraíso etrusco era un lugar de olvidar, el infierno, un lugar de recordar\". ¿Qué oscura estrategia de gobierno nació de esto?",
+      "Personaje o hecho histórico": "Religión etrusca y su visión del más allá.",
+      "Por qué importa": "Revela una teoría de gobierno fascinante y oscura. Los etruscos, para controlar a su pueblo, apostaban por el miedo al infierno (descripto en detalle) más que por las promesas del paraíso (misterioso). Este mecanismo sería adoptado incluso por Dante. Un ejemplo de cómo el miedo a lo sobrenatural puede ser un arma política.",
+      "Imagen sugerida": "En primer plano, una mano mostrando el símbolo de un rayo (Tinia). En segundo plano, un libro abierto con texto antiguo, y en el fondo, siluetas de figuras humanas con aspecto sombrío (representando el miedo).",
+      "Copy desarrollado": "En la Etruria, los templos no solo rezaban, también gobernaban la conciencia. Su dios Tinia, con rayo y trueno, no era una fuente de consuelo, sino de miedo. La religión etrusca creía que el infierno era un lugar de tormentas eternas, detalles concretos que sabían describir. El paraíso, en cambio, era un misterio, un lugar de olvidos y placeres indistintos. Una estrategia brillante: ¿cómo gobernar mejor si la amenaza es más real y descriptible que la esperanza? Los sacerdotes promovían el miedo a la condenación, práctica que perduraría incluso en la Edad Media. Una lección de psicología social de hace dos mil años.",
+      "Hashtags": "#Etruria #HistoriaReligiosa #PoliticaAntigua #Miedo #Dante #Infierno #ReligionAntigua #Tinia"
     },
     {
       "id": 20,
@@ -313,12 +313,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "¿Sabías que el sistema legal de Roma nació de un ritual de sacrificio?",
-      "Personaje o hecho histórico": "La transición de la teocracia a un sistema legalista en Roma.",
-      "Por qué importa": "Este cambio fue fundamental para Roma, permitiendo que el derecho dejara de estar ligado a la voluntad divina y se convirtiera en un sistema más secular y accesible, lo que la diferenció de otras civilizaciones y permitió su expansión como potencia legalista.",
-      "Imagen sugerida": "Imagen de un altar con animales sacrificados y tablas de ley, representando el contraste entre lo sagrado y lo secular.",
-      "Copy desarrollado": "Antes, en Roma, todo estaba controlado por los sacerdotes, que conocían las leyes secretas y las aplicaban según la voluntad de los dioses. Pero cuando Roma creció, necesitó un sistema más claro y justo. Surgieron las Doce Tablas, que establecieron el derecho civil separado de lo religioso. Este cambio transformó a Roma en una ciudad-estado basada en leyes escritas, no en rituales. Hoy, este hecho muestra cómo la claridad legal puede transformar un imperio.",
-      "Hashtags": "#HistoriaDeRoma #LeyesEscritas #SacrificioAntiguo #SistemaLegal #IndroMontanelli #HistoriaViral #RomaAntigua #CambioHistorico"
+      "Hook inicial": "¿Sabías que los etruscos celebraban la muerte con gladiadores vivos y hígados vívidos?",
+      "Personaje o hecho histórico": "Costumbres funerarias y prácticas religiosas etruscas.",
+      "Por qué importa": "Describe una práctica funeraria chocante pero curiosamente \"predecible\" en su crudeza. La creencia en el poder de los muertos llevó a sacrificios humanos y animales, incluso mediante métodos como la lapidación o el consumo de vísceras. Esta práctica, adoptada por Roma, muestra cómo la Antigua Roma ya practicaba la violencia ritualizada desde sus orígenes.",
+      "Imagen sugerida": "Esqueleto de arena con forma de altar, sobre él un hígado palpitante y manchas de sangre. Detrás, la silueta de una lanza etrusca y un toro, con la leyenda \"Vída por los muertos\".",
+      "Copy desarrollado": "En el Etruria, la muerte no era el final, era el comienzo de otro viaje. Para asegurar el destino de los difuntos, se practicaban rituales macabros. Prisioneros de guerra eran lapidados hasta morir, y sus hígados vívidos se estudiaban para predecir el futuro. Animales y personas eran sacrificadas, y las vísceras consumidas en rituales. Esta práctica, que mezcla religiosidad y barbarie, no sería ajena a Roma que, siglos después, heredaría estas tradiciones funerarias, incluyendo el espectáculo de la lucha en la arena. Un grito silencioso de sangre desde el corazón mismo de la Antigua Italia.",
+      "Hashtags": "#Etruria #AntiguaRoma #HistoriaDeRoma #Gladiadores #SacrificioAntiguo #Rituales #ViolenciaAntigua #Mortaja"
     }
   ],
   "instancia": 1,
